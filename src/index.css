@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+ul li {
+  list-style: none;
+}
+h1 {
+  font-size: 4.2rem;
+  margin-bottom: 2rem;
+  letter-spacing: 0.3rem;
+  text-align: center;
+  color: #f08000;
+}
+body {
+  font-family: "Helvetica Neue" sens-serif, sans-serif;
+}
+.App {
+  width: 100%;
+  height: 100vh;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.counterBody {
+  width: 50%;
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  padding: 2rem 0;
+  background: #020240;
+}
+.counterContainer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+  padding: 3rem 2rem;
+  background: #0244a8;
+}
+.result {
+  color: #ffffff;
+  font-size: 5rem;
+}
+.buttons {
+  margin-top: 2rem;
+}
+.btn {
+  padding: 1rem 2rem;
+  border: none;
+  color: #ffffff;
+  font-size: 2rem;
+  font-weight: 500;
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
+.reset {
+  background: #f00200;
+  margin: 0 2rem;
+}
+.increment {
+  background: green;
+}
+.decrement {
+  background: #d37102;
+}
